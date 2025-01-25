@@ -2,3 +2,4 @@ css is added just under the title
 script.js ia added just above the closing of the body 
 
 meta data is very useful for search optimisations and SEOs
+target = _blank is used to get the new tab on clicking something 
