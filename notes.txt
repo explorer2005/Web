@@ -81,3 +81,5 @@ grid is also display property
 box and text both can be given the shadows 
 using the shodow and aga ka syntax
 outline is not the part of box model but the border is the part of box model and offset of the outline can be increased , border can be curved and outline follows the same it cant be changed individually into curved corners 
+
+In list the markers are outside the style in order to include them inside the background colour or the border user list style position inline 
