@@ -3,3 +3,17 @@ script.js ia added just above the closing of the body
 
 meta data is very useful for search optimisations and SEOs
 target = _blank is used to get the new tab on clicking something 
+
+SEO and web core vitals
+CLS:- Cumulative Layout Shift (kitni jaldi pages shift on something )
+LCP:- Largest Contentful Paint (hitting target audience ko sabsa bada page kitni der ma load hoga 2.5)
+FID:- First Input Delay(agar user na kuch input kia to kitni der ma output aiga 100ms )
+
+ ab Meta itna use nahi hota as it was abused by the people page ha pet ka bara ma likh aur aur dia taki SEO pass kar de 
+for in the label is to be filled by the id of the input tag 
+
+inline jitni required utni space and block matlab sari space it can be changed using display property in css
+
+id is unique like adhar number 
+class means 1 insaan ki multiple classes ho sakti haan and 1 class ma  ultiple elements bhi laga sakta haan 
+# is used with class in css and . is used with id 
