@@ -34,3 +34,16 @@ Every tag in html works on bos model that is it has content then padding then bo
 
 border sizing border box use karoge to total height mentioned padding ko milakar verna only content ki hoti ha vo 
 if margin is overlapping to bus bada wali count ho jaigi ek baar 
+
+if text is imported using import then add below style opening tag if using link then just above the style opening tag 
+text style
+line spaceing
+letter spacing
+text decoration  
+
+types to involve colors in the code are:-
+colore name
+hexcodes
+rgb
+rgba
+hsl
