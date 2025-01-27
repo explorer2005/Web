@@ -22,3 +22,5 @@ controls for video is mute loop autoplay poster(like thumbnails of the video)
 preload means you want ki website phele hi data fecth karle 
 to add a svg file xmlns add karna padta ha verna file nahi dikhti svg wali
 iframe is used to embed one website into your website 
+
+semantics tags are used by seo to detect what is written and where is it written 
