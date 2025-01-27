@@ -17,3 +17,8 @@ inline jitni required utni space and block matlab sari space it can be changed u
 id is unique like adhar number 
 class means 1 insaan ki multiple classes ho sakti haan and 1 class ma  ultiple elements bhi laga sakta haan 
 # is used with class in css and . is used with id 
+controls for video is mute loop autoplay poster(like thumbnails of the video)
+
+preload means you want ki website phele hi data fecth karle 
+to add a svg file xmlns add karna padta ha verna file nahi dikhti svg wali
+iframe is used to embed one website into your website 
