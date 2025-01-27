@@ -47,3 +47,19 @@ hexcodes
 rgb
 rgba
 hsl
+
+
+in css if there is any conflict that which colour is to be selected then we use specificity algorithm 
+if same selector then the last one in the line is considered otherwise specifcity is used 
+inline css>ID selector>Cass or Attribute Selector>Element Selector>Universal Selector 
+
+agar !important user kardia to usko hona hi padega ye inline styles ko bhi override kar dega 
+
+for specificity calculation give 
+universal selector-0
+element or pseudo is 1
+class attribut 10
+id selector 100
+inline styles 1000
+
+if . is used between 2 like h1.cred so both the specificity will add 
