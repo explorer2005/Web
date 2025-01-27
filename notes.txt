@@ -28,3 +28,4 @@ semantics tags are used by seo to detect what is written and where is it written
 if you want to write something which is similar to the syntax of html then we use entities and pre tags 
 
 to put code in the website always use the code tag and also use the pre tag if you want to put as it is and also obsolete tags are those that are now not in ise in html and css and are not even recommended to use 
+

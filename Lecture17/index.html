@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*Universal*/
+        div{
+            background-color: brown;
+        }
+        /*class selector*/
+        .red{
+            background-color: aquamarine;
+        }
+        /*ID selector*/
+        #yellow{
+            background-color: yellow;
+        }
+        /*child*/
+        div>p{
+            color: white;
+        }
+        /*descendant*/
+        div article{
+            font-style: italic;
+        }
+        /*Pseudo selectors*/
+        a:visited{
+            color: black;
+        }
+        a:link{
+            color: azure;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: brown;
+        }
+        /*type of pseudo only yahan pa jahan jahan pa p is first child  wahan ye property lag jaigi*/
+        p:first-child{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            My name is DHRUV GUPTA.
+        </p>
+        <article>
+            I am gupta
+        </article>
+    </div>
+    <div class="red">
+        <span>
+            My name is DHRUV GUPTA.
+        </span>
+    </div>
+    <div id="yellow">
+        <article>
+            My name is DHRUV GUPTA.
+        </article>
+        <a href="https://www.google.com">Go to google</a><br>
+        <a href="https://www.instagram.com">Go to Instagram</a>
+    </div>
+</body>
+</html>
