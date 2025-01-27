@@ -29,3 +29,8 @@ if you want to write something which is similar to the syntax of html then we us
 
 to put code in the website always use the code tag and also use the pre tag if you want to put as it is and also obsolete tags are those that are now not in ise in html and css and are not even recommended to use 
 
+Box Model
+Every tag in html works on bos model that is it has content then padding then border then margin 
+
+border sizing border box use karoge to total height mentioned padding ko milakar verna only content ki hoti ha vo 
+if margin is overlapping to bus bada wali count ho jaigi ek baar 
