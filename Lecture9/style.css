@@ -1,0 +1,12 @@
+.first{
+    font: italic;
+}
+.second{
+    font-size: large;
+}
+#red{
+    color: brown;
+}
+#yellow{
+    background-color: yellow;
+}
