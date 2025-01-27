@@ -71,3 +71,9 @@ similarly vh is used for height
 em is jitna inherited size ha uska utna guna jitna mentioned ha like 2 em means do guna 
 2 rem matlab jitna root element ka size ha uska 2 guna 
 vmin and vmax are min and max of the vh vw if same then it remains unaffected 
+
+block elements can be converted into inline elements using display:inline and inline-block if you want to set padding width etc 
+display:none sespace aur content dono gayab
+visibility:none se only content gayab spacew to wahi rahegi 
+flex can also be used to do the alignment and can be justified using justify 
+grid is also display property 
