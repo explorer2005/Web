@@ -83,3 +83,9 @@ using the shodow and aga ka syntax
 outline is not the part of box model but the border is the part of box model and offset of the outline can be increased , border can be curved and outline follows the same it cant be changed individually into curved corners 
 
 In list the markers are outside the style in order to include them inside the background colour or the border user list style position inline 
+
+if there is insuffcient width height then we use css overflow 
+white space nowrap is used to showcase text only horizontally and not vertical content and overflow auto is used to get the scroll bar in case the content overflows 
+text overflow ellipsis is used to get the ... if the content overflows 
+overflow clip is used to stop the scrolling of the overflowed text even 
+overflow x and y can be treated individually as well 
