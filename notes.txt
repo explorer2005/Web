@@ -63,3 +63,11 @@ id selector 100
 inline styles 1000
 
 if . is used between 2 like h1.cred so both the specificity will add 
+
+different units for spacing and all
+vw:- on use of it the object takes the size according to view portsize of the screen 
+margin auto is used tio automatically align from the left and the right only for block elements 
+similarly vh is used for height 
+em is jitna inherited size ha uska utna guna jitna mentioned ha like 2 em means do guna 
+2 rem matlab jitna root element ka size ha uska 2 guna 
+vmin and vmax are min and max of the vh vw if same then it remains unaffected 
