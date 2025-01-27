@@ -77,3 +77,7 @@ display:none sespace aur content dono gayab
 visibility:none se only content gayab spacew to wahi rahegi 
 flex can also be used to do the alignment and can be justified using justify 
 grid is also display property 
+
+box and text both can be given the shadows 
+using the shodow and aga ka syntax
+outline is not the part of box model but the border is the part of box model and offset of the outline can be increased , border can be curved and outline follows the same it cant be changed individually into curved corners 
