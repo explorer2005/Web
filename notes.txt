@@ -89,3 +89,9 @@ white space nowrap is used to showcase text only horizontally and not vertical c
 text overflow ellipsis is used to get the ... if the content overflows 
 overflow clip is used to stop the scrolling of the overflowed text even 
 overflow x and y can be treated individually as well 
+
+static position matlab jahan ha wahi rahegi 
+aga piche lana ka lia z index is used uska lia position ko phele relative karna padega 
+absolute position ma nearest positioned ancestor ka relative lagta ha agar position nahi ha transform, filter jaisa kuch ha to bhi neareest parent ka according set hoga 
+position fixed ma vo fix rehta ha chahe scrolling kyu na hori ho 
+in case of sticky vo wahi chipki rehti ha chahe scrool kyu na ho raha ho jab uspa reach karenge tab hilegi 
