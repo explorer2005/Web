@@ -95,3 +95,26 @@ aga piche lana ka lia z index is used uska lia position ko phele relative karna 
 absolute position ma nearest positioned ancestor ka relative lagta ha agar position nahi ha transform, filter jaisa kuch ha to bhi neareest parent ka according set hoga 
 position fixed ma vo fix rehta ha chahe scrolling kyu na hori ho 
 in case of sticky vo wahi chipki rehti ha chahe scrool kyu na ho raha ho jab uspa reach karenge tab hilegi 
+
+variales in css are used in order to change things only on one click of thing like color to be changed to red from yellow
+syntax for declaration of global variables are:-
+:root{
+    --color:
+    --secColor: 
+}
+usage: 
+: var(--color);
+
+if overided with local variable then vo use hoga 
+
+media querries are used to make the website responsive 
+syntax:-
+@media not|only mediatype and (expression like max-width:455px){
+    css style
+}
+
+float alows the things to move to that side and allow the rest items to occupy rest of the empty space 
+example float left
+display flow root is used to prevent the overflow 
+clear is used ki na left ma dikh na right ya dono mA HI NA dikh 
+dont use float and clear ever 
