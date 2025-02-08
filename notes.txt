@@ -118,3 +118,49 @@ example float left
 display flow root is used to prevent the overflow 
 clear is used ki na left ma dikh na right ya dono mA HI NA dikh 
 dont use float and clear ever 
+
+flex box is basically used for alingnment 
+justify content centre se horizontally alignemnt ata ha aur align items se vertically alingnment ata ha 
+flex firection ma item lay hoti haan and generally its left to irgh but it can be changed as well
+main axis matlab jiska sidh ma item lay hori ha and uska perpendicular hoti ha cross axis 
+flex wrap is used to prevent the overflow and agli line ya column ma content push kar deta ha automatically 
+content word is used when there is more than 1 line or column 
+there is no justify item in flex box 
+wrap reverse se ulta wrap ho jaiga 
+flex flow is used to set flex direction and flex wrap 
+gap is used to give the spacing between each of the item of the ciontainer 
+row and column gap can be set separately 
+ye yaad rakhna padega ki konsi property container ki ha aur konsi property item ki ha and usi ka style ma usko dalo 
+
+order is the property of an item and jitna zyada order utni der se vo item aiga 
+flex grow is is used ki vo item kitna item ki jagah lega akela 
+flex shrink is used to shrink whenever needed when the size of container is less than needed 
+flex shrink 2 matlab doguni speed se ghategi speed
+align of a particular item can be done using align self 
+
+grid is used to reprepresent grid in inspect
+and its no of columns and rows can be changed and hum ab kahi bhi chiza place kar sakta hu 
+grid row start: grid row end is same as grid row 1/2
+to name the line or columns while declaring the tempelated we can use[name] to set the name 
+we can also give the area name 
+fr unit is also used fr means fraction of totalexample 1fr 1fr 1fr so it means 1/3 1/3 1/3 of available space 
+align items and justify items se positions of items can be changed 
+repeat(4, 1fr) matlab 1fr,1fr,1fr,1fr
+place content se justify and align sath ma ho jata ha 
+
+2d and 3d transforms :-
+transform keyword is usedit can be done about any axis, angles turns and skew can also be done that particular axis ka about pakadkar kheech dia, but skew z axis ka about nahi hota 
+translate matlab apna height length ka respect ma translate karna 
+(tutorial 42 k code refer karo)
+
+transition property:-  eg transform
+transition duration:-  eg 3s
+transition timing function:-eg ease in out
+transition delay:- eg 1s
+if we put all in transition property in that case its applied to all the properties 
+in order to combine all 4 properties transform: then all 4 values separated by space,
+
+Animation:-
+@keyframes keyword is used to include animations followed by name and then from to 
+all properties can also be combined here 
+filmmode:-
