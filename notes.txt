@@ -164,3 +164,21 @@ Animation:-
 @keyframes keyword is used to include animations followed by name and then from to 
 all properties can also be combined here 
 filmmode:-
+
+
+javascript:-
+let is preferred as agar ander declare kia to ander aur bahar kia to bahar rahega , let is blocks code
+var is global scope 
+
+typeof null is not null, its object although its a primitive data type but still because its a kind of mistake in specs of jaavascript, but many codes rely on it si it can't be changed now 
+
+in onjects always key and value pair is there, if there is a gap between each ones name then use double quotes 
+
+repl:= read,evaluate,print,loop 
+
+=== compares both type and value 
+== only value 
+
+in java we also have forin loop and foreach loop, 
+when we have to print things inside the object then forin is used 
+forin is used to print one-one element of a string or loop etc
