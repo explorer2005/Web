@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card in CSS</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .parent{
+            border: 1px solid black;
+            height: 50vw;
+            width: 25vw;
+            border-radius: 7%;
+            background-color: white;
+            position: absolute;
+        }
+        .class1{
+            border: 1px solid black;
+            height: 50%;
+            width: 96%;
+            position: absolute;
+            top:2%;
+            left: 2%;
+            border-radius: 7%;
+            background-image:url(https://www.shutterstock.com/image-photo/aerial-front-view-sports-motor-600nw-2489196327.jpg);
+        }
+        span{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: small;
+            
+        }
+        #one{
+            position: relative;
+            top: 165px;
+            border: 1px solid black;
+            border-radius: 7%;
+            background-color: white;
+        }
+        #two{
+            left: 3px;
+            position: relative;
+            top: 165px;
+            border: 1px solid black;
+            border-radius: 7%;
+            background-color: white;
+        }
+        .class3{
+            position: relative;
+            top: 170px;
+            text-align: center;
+            font-size: small;
+        }
+        #last{
+            font-size: xx-small;
+            border: 2px;
+            background-color: aqua;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="class class1">
+    <div class="class class2">
+        <span id="one">Nature</span>
+        <span id="two">Lake</span>
+    </div>
+    <div class="class class3">
+        <h3>ID CARD</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est molestias ullam neque suscipit sint?<br>
+        </p>
+        <span id="last">Read More</span>
+    </div>
+</div>
+</body>
+</html>

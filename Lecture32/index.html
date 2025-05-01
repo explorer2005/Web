@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changeable nav bar</title>
+    <style>
+        .root{
+            --primary-color:blue;
+            --secondary-color:yellow;
+
+        }
+        body{
+            background-color: var(--primary-color);
+        }
+        nav{
+            background-color: var(--secondary-color);
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        nav ul{
+            list-style: none;
+            display: inline;
+        }
+        nav ul li{
+            display: inline;
+            padding: 46px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Help</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

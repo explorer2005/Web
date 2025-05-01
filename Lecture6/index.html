@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <label for="checkbox">Tick it</label>
+            <input type="checkbox" name="Guidlines accepted" id="checkbox">
+        </div>
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio" value="Male" id="Male" name="gender">
+            <br>
+            <label for="Female">Female</label>
+            <input type="radio" value="Female" id="Female" name="gender">
+        </div>
+        <div>
+            <textarea name="Comment" id="TextArea" cols="30" rows="10">Enter your feedback</textarea>
+        </div>
+        <div>
+            <select name="Options" id="Select">
+                <option value="Apple">Apple</option>
+                <option value="App">Cherry</option>
+                <option value="A">Banana</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

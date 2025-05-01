@@ -1,0 +1,184 @@
+css is added just under the title
+script.js ia added just above the closing of the body 
+
+meta data is very useful for search optimisations and SEOs
+target = _blank is used to get the new tab on clicking something 
+
+SEO and web core vitals
+CLS:- Cumulative Layout Shift (kitni jaldi pages shift on something )
+LCP:- Largest Contentful Paint (hitting target audience ko sabsa bada page kitni der ma load hoga 2.5)
+FID:- First Input Delay(agar user na kuch input kia to kitni der ma output aiga 100ms )
+
+ ab Meta itna use nahi hota as it was abused by the people page ha pet ka bara ma likh aur aur dia taki SEO pass kar de 
+for in the label is to be filled by the id of the input tag 
+
+inline jitni required utni space and block matlab sari space it can be changed using display property in css
+
+id is unique like adhar number 
+class means 1 insaan ki multiple classes ho sakti haan and 1 class ma  ultiple elements bhi laga sakta haan 
+# is used with class in css and . is used with id 
+controls for video is mute loop autoplay poster(like thumbnails of the video)
+
+preload means you want ki website phele hi data fecth karle 
+to add a svg file xmlns add karna padta ha verna file nahi dikhti svg wali
+iframe is used to embed one website into your website 
+
+semantics tags are used by seo to detect what is written and where is it written 
+
+if you want to write something which is similar to the syntax of html then we use entities and pre tags 
+
+to put code in the website always use the code tag and also use the pre tag if you want to put as it is and also obsolete tags are those that are now not in ise in html and css and are not even recommended to use 
+
+Box Model
+Every tag in html works on bos model that is it has content then padding then border then margin 
+
+border sizing border box use karoge to total height mentioned padding ko milakar verna only content ki hoti ha vo 
+if margin is overlapping to bus bada wali count ho jaigi ek baar 
+
+if text is imported using import then add below style opening tag if using link then just above the style opening tag 
+text style
+line spaceing
+letter spacing
+text decoration  
+
+types to involve colors in the code are:-
+colore name
+hexcodes
+rgb
+rgba
+hsl
+
+
+in css if there is any conflict that which colour is to be selected then we use specificity algorithm 
+if same selector then the last one in the line is considered otherwise specifcity is used 
+inline css>ID selector>Cass or Attribute Selector>Element Selector>Universal Selector 
+
+agar !important user kardia to usko hona hi padega ye inline styles ko bhi override kar dega 
+
+for specificity calculation give 
+universal selector-0
+element or pseudo is 1
+class attribut 10
+id selector 100
+inline styles 1000
+
+if . is used between 2 like h1.cred so both the specificity will add 
+
+different units for spacing and all
+vw:- on use of it the object takes the size according to view portsize of the screen 
+margin auto is used tio automatically align from the left and the right only for block elements 
+similarly vh is used for height 
+em is jitna inherited size ha uska utna guna jitna mentioned ha like 2 em means do guna 
+2 rem matlab jitna root element ka size ha uska 2 guna 
+vmin and vmax are min and max of the vh vw if same then it remains unaffected 
+
+block elements can be converted into inline elements using display:inline and inline-block if you want to set padding width etc 
+display:none sespace aur content dono gayab
+visibility:none se only content gayab spacew to wahi rahegi 
+flex can also be used to do the alignment and can be justified using justify 
+grid is also display property 
+
+box and text both can be given the shadows 
+using the shodow and aga ka syntax
+outline is not the part of box model but the border is the part of box model and offset of the outline can be increased , border can be curved and outline follows the same it cant be changed individually into curved corners 
+
+In list the markers are outside the style in order to include them inside the background colour or the border user list style position inline 
+
+if there is insuffcient width height then we use css overflow 
+white space nowrap is used to showcase text only horizontally and not vertical content and overflow auto is used to get the scroll bar in case the content overflows 
+text overflow ellipsis is used to get the ... if the content overflows 
+overflow clip is used to stop the scrolling of the overflowed text even 
+overflow x and y can be treated individually as well 
+
+static position matlab jahan ha wahi rahegi 
+aga piche lana ka lia z index is used uska lia position ko phele relative karna padega 
+absolute position ma nearest positioned ancestor ka relative lagta ha agar position nahi ha transform, filter jaisa kuch ha to bhi neareest parent ka according set hoga 
+position fixed ma vo fix rehta ha chahe scrolling kyu na hori ho 
+in case of sticky vo wahi chipki rehti ha chahe scrool kyu na ho raha ho jab uspa reach karenge tab hilegi 
+
+variales in css are used in order to change things only on one click of thing like color to be changed to red from yellow
+syntax for declaration of global variables are:-
+:root{
+    --color:
+    --secColor: 
+}
+usage: 
+: var(--color);
+
+if overided with local variable then vo use hoga 
+
+media querries are used to make the website responsive 
+syntax:-
+@media not|only mediatype and (expression like max-width:455px){
+    css style
+}
+
+float alows the things to move to that side and allow the rest items to occupy rest of the empty space 
+example float left
+display flow root is used to prevent the overflow 
+clear is used ki na left ma dikh na right ya dono mA HI NA dikh 
+dont use float and clear ever 
+
+flex box is basically used for alingnment 
+justify content centre se horizontally alignemnt ata ha aur align items se vertically alingnment ata ha 
+flex firection ma item lay hoti haan and generally its left to irgh but it can be changed as well
+main axis matlab jiska sidh ma item lay hori ha and uska perpendicular hoti ha cross axis 
+flex wrap is used to prevent the overflow and agli line ya column ma content push kar deta ha automatically 
+content word is used when there is more than 1 line or column 
+there is no justify item in flex box 
+wrap reverse se ulta wrap ho jaiga 
+flex flow is used to set flex direction and flex wrap 
+gap is used to give the spacing between each of the item of the ciontainer 
+row and column gap can be set separately 
+ye yaad rakhna padega ki konsi property container ki ha aur konsi property item ki ha and usi ka style ma usko dalo 
+
+order is the property of an item and jitna zyada order utni der se vo item aiga 
+flex grow is is used ki vo item kitna item ki jagah lega akela 
+flex shrink is used to shrink whenever needed when the size of container is less than needed 
+flex shrink 2 matlab doguni speed se ghategi speed
+align of a particular item can be done using align self 
+
+grid is used to reprepresent grid in inspect
+and its no of columns and rows can be changed and hum ab kahi bhi chiza place kar sakta hu 
+grid row start: grid row end is same as grid row 1/2
+to name the line or columns while declaring the tempelated we can use[name] to set the name 
+we can also give the area name 
+fr unit is also used fr means fraction of totalexample 1fr 1fr 1fr so it means 1/3 1/3 1/3 of available space 
+align items and justify items se positions of items can be changed 
+repeat(4, 1fr) matlab 1fr,1fr,1fr,1fr
+place content se justify and align sath ma ho jata ha 
+
+2d and 3d transforms :-
+transform keyword is usedit can be done about any axis, angles turns and skew can also be done that particular axis ka about pakadkar kheech dia, but skew z axis ka about nahi hota 
+translate matlab apna height length ka respect ma translate karna 
+(tutorial 42 k code refer karo)
+
+transition property:-  eg transform
+transition duration:-  eg 3s
+transition timing function:-eg ease in out
+transition delay:- eg 1s
+if we put all in transition property in that case its applied to all the properties 
+in order to combine all 4 properties transform: then all 4 values separated by space,
+
+Animation:-
+@keyframes keyword is used to include animations followed by name and then from to 
+all properties can also be combined here 
+filmmode:-
+
+
+javascript:-
+let is preferred as agar ander declare kia to ander aur bahar kia to bahar rahega , let is blocks code
+var is global scope 
+
+typeof null is not null, its object although its a primitive data type but still because its a kind of mistake in specs of jaavascript, but many codes rely on it si it can't be changed now 
+
+in onjects always key and value pair is there, if there is a gap between each ones name then use double quotes 
+
+repl:= read,evaluate,print,loop 
+
+=== compares both type and value 
+== only value 
+
+in java we also have forin loop and foreach loop, 
+when we have to print things inside the object then forin is used 
+forin is used to print one-one element of a string or loop etc

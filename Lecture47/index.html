@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 60vh;
+            width: 60vw;
+            background-color: blue;
+        }
+        .item{
+            height: 6vh;
+            width: 6vw;
+            background-color: white;
+            animation-name: dhruv;
+            animation-timing-function: ease-in-out;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+        @keyframes dhruv {
+            from{
+                background-color: yellow;
+            }to{
+                transform: translateX(50vh);
+                background-color: red;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+</body>
+</html>
